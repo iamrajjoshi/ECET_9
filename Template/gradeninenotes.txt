@@ -1,0 +1,110 @@
+|| Grade 9 Electric Notes ||
+
+
+Escape Keys:
++ \b --> backspace
++ \n --> newline
++ \a --> sound
++ \r --> beginning of line
+
+Iomanip:
+cout.setf(ios::fixed); --> accuracy when needed (Fixed precision)
+cout.setf(ios::showpoint); --> shows decimal point (Shows decimal point)
+cout.precision(5); --> sets precision to certain number
+
+Casting:
+Casting is temporarily changing the data type of variable. (Required for integer division):
+
+int num1, num2;
+float div;
+div = static_cast<float> (num1) / 2; --> casts num1 into a float
+div =  float(num1) / 2; --> other way to do it
+
+Operator:
+Operator operate on operands
+
++ Binary Operator --> 2 (x+y)
++ Unary Operator --> 1 (!x)
++ Ternary Operator --> (grade < 65 ? cout << "Fail" : cout << "Pass";) --> check grade, if true then display fail, else pass?
+	- condition if true : if false
+
+Incrementing:
++ Pre Incrementing --> (what ++num);
+	- num is incremented then what is assigned 
+	
++ Post Incrementing --> (what = num++);
+	- what is assigned first and then num is incremented
+
+Attributes of Identifiers:
++ Name
++ Data Type (int, double, char, bool)
++ Size (2 bytes, 4 bytes)
++ Value
++ Storage Class (Variable Lifespan):
+	 - Possibilities
+		- Exists Briefly
+		- Repeatedly Created\Destroyed
+		- Exists for the entire execution of the program
+	- Storage Class Specifiers
+		- ***auto (Automatic Storage Class)
+			- Created: Storage in memory occurs when the block in which they are declared is entered
+			- Exist: While the block is active
+			- Destroyed: When the block is existed
+		- ***static (Storage Class)
+			- Created: 
+			- Exist:
+			- Destroyed: 
++ Scope (Where in the program is the variable for usage)
+
+Global Variable:
++ Any function can be used
++ extern int x;
+	- Multiple files know the existence of the variable
+
+Hardware:
++ What part of the computer gives memory ==> MMU (Memory Management Unit)
+	- Assigns memory
+
+C++ Functions:
++ Approaches for function that implement identical tasks for different data types
+	- No_ Brain Approach
+	- Function Overloading 
+	- Function Template
+
+Default Case:
++ int add(int x = 666; int y = 555);
++ In the function call:
+	add() -- > adds 666+555;
+	add(num1) --> adds num1 + 555;
+	- If you don't pass any values, then you just use the default values in the function call'
+	- Needs to be in function prototype (top)
+
+Arrays:
++ Variable
+	- Memory location that contains a specific value of a specific data type
++ Direct Addressing
+	- A variable name directly references a value
++ Array
+	- Block of memory with contiguous locations (elements) that contains data values of the same data types
+	- Direct Addressing
+	- The value resides in the address defined by the array index
+	- int nums [80];
+	- Dimensions are constant
+	- Integer is 4 bytes
++ Null Terminating Character
+	-'\0' 
+
+Input:
++ C Legacy Array ends with a '\0' Null terminating array;
++ cin.get 
+	- One letter at a time
+	- Use a for loop
++ cin.getline(x, 80); // cin.getline(x, 80, 'z');
+	- z becomes a carrige line return;
++ cin >> name;
+	- Cin will stop reading something when it reaches whitespace:
+		- space
+		- tab
+		- '\n'
+		- DOES NOT WORK FOR INTEGER
++ Stored in temporary memory also called the buffer

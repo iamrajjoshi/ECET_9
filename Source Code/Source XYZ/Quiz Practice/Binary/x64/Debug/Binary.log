@@ -1,0 +1,3 @@
+﻿  binary.cpp
+c:\users\geeky\onedrive\extra\workspace\visual studio\c++\grade9c++\quiz practice\binary\binary.cpp(18): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  Binary.vcxproj -> C:\Users\geeky\OneDrive\Extra\Workspace\Visual Studio\C++\Grade9C++\x64\Debug\Binary.exe
