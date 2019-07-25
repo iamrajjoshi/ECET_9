@@ -1,4 +1,0 @@
-﻿  Hi_Low.cpp
-c:\users\geeky\onedrive\electric\electric grade 9\workspace\visual studio c++\grade9c++\assignment - hi_low game\hi_low.cpp(79): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-c:\users\geeky\onedrive\electric\electric grade 9\workspace\visual studio c++\grade9c++\assignment - hi_low game\hi_low.cpp(93): warning C4715: 'check_guess': not all control paths return a value
-  Assignment - Hi_Low Game.vcxproj -> C:\Users\geeky\OneDrive\Electric\Electric Grade 9\Workspace\Visual Studio C++\Grade9C++\Debug\Assignment - Hi_Low Game.exe
